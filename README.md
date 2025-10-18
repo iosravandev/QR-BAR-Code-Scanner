@@ -12,7 +12,7 @@
 
 ## Используемые технологии
 - Swift  
-- SwiftUI / UIKit  
+- SwiftUI  
 - Core Data  
 - AVFoundation  
 - URLSession  
