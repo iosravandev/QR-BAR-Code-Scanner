@@ -1,0 +1,103 @@
+# === Xcode ===
+# User-specific files
+*.xcuserstate
+*.xcuserdatad
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# === Build artifacts ===
+build/
+DerivedData/
+*.o
+*.LinkFileList
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# === Swift Package Manager ===
+# Add this if you use SwiftPM
+.swiftpm/
+.build/
+Package.resolved
+
+# === CocoaPods ===
+Pods/
+Podfile.lock
+
+# === Carthage ===
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/DerivedData/
+Carthage/Dependencies/
+*.xcframework.zip
+
+# === Accio dependency manager ===
+Dependencies/
+.accio/
+
+# === Fastlane ===
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+fastlane/readme.md
+
+# === Xcode Playground ===
+timeline.xctimeline
+playground.xcworkspace
+
+# === macOS files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Icon files ===
+Icon?
+._*
+
+# === Thumbnails ===
+._*
+
+# === Files that might appear in the root of a volume ===
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# === Directories potentially created on remote AFP share ===
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# === Swift Package Manager / Xcode Cache ===
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# === XCFrameworks ===
+*.xcframework/
+
+# === Simulator / Device logs ===
+*.crash
+*.xcarchive
+
+# === SwiftLint / Codegen / Misc ===
+.swiftlint.yml
+*.plist.bak
+*.xcconfig.bak
+
+# === Firebase / Google ===
+GoogleService-Info.plist
+*.xcfilelist
+
+# === Tuist ===
+Tuist/
+Project.swift
+Workspace.swift
+Config.swift
+Graph.json
